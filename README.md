@@ -62,7 +62,7 @@ The drawn boxes are shown in the following figure:
 
  ![Hog_image](report/windows.png)
 
-####2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
+#### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
 Using the 3 lavel scaling provides a total number of 165 windows to search. Executing the script `vehicle_tracking_pipeline_image`, some representative results for the testing images are shown below. This is the final result that excludes the false positives. Details of intermediate steps are address in the next part. For optimising the performance, the small and more numerous windows occupy the upper half of the searching area so they are kept to a smaller level than expanding them throughout the image. 
 
